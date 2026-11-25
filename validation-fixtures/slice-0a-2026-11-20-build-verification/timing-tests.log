@@ -1,0 +1,40 @@
+=== Qt Test, default verbosity ===
+command: /home/editry/development/sise-editor/build/aether_slice0a_tests
+********* Start testing of TimingTests *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 16.2.1 20260819 (Red Hat 16.2.1-2)), fedora 45
+PASS   : TimingTests::initTestCase()
+PASS   : TimingTests::publishedBoundaries()
+PASS   : TimingTests::eightFrameSpansAreNotAllEqual()
+PASS   : TimingTests::adjacentRepeatedAndNonZeroStarts()
+PASS   : TimingTests::longWalkMatchesBoundary()
+PASS   : TimingTests::negativeAndOverflowFailClosed()
+PASS   : TimingTests::cleanupTestCase()
+Totals: 7 passed, 0 failed, 0 skipped, 0 blacklisted, 49ms
+********* Finished testing of TimingTests *********
+********* Start testing of ProjectTests *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 16.2.1 20260819 (Red Hat 16.2.1-2)), fedora 45
+PASS   : ProjectTests::initTestCase()
+PASS   : ProjectTests::createManifestLayoutAndReopen()
+PASS   : ProjectTests::projectIdSurvivesRenameCloseAndReopen()
+PASS   : ProjectTests::badManifestMissingDatabaseAndBadSchema()
+PASS   : ProjectTests::transactionsForeignKeysAndUniqueness()
+PASS   : ProjectTests::binsMembershipMoveReferenceAndDuplicate()
+PASS   : ProjectTests::mediaIdentityAndMasterClipReopen()
+PASS   : ProjectTests::undoRedoResetsAndStaysIndependentOfSave()
+PASS   : ProjectTests::autosaveAndInterruptedTransaction()
+PASS   : ProjectTests::secondOpenIsRefusedAndLogsOmitPaths()
+PASS   : ProjectTests::cleanupTestCase()
+Totals: 11 passed, 0 failed, 0 skipped, 0 blacklisted, 30ms
+********* Finished testing of ProjectTests *********
+qt_test_exit=0
+
+=== independent driver ===
+driver_compile=0
+PASS 0-8-30000/1001 12812
+PASS 8-16-30000/1001 12813
+PASS 0-8-30/1 12800
+PASS walk-boundary 320320000
+PASS walk-sum 320320000
+PASS negative error
+timing-driver-ok
+driver_exit=0

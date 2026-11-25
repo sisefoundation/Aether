@@ -1,0 +1,9 @@
+$ ffprobe -hide_banner -v error -select_streams a -show_entries packet=pts,duration,size,flags -of json /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/video_only_8f_30000_1001.mxf
+exit=0
+----- stdout -----
+{
+    "packets": [
+
+    ]
+}
+----- stderr -----

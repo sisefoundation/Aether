@@ -1,0 +1,23 @@
+-- The CXX compiler identification is GNU 16.2.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:26 (message):
+  Slice 0A cannot configure.  Missing Fedora development packages:
+  sqlite-devel, qt6-qtbase-devel
+
+  sqlite-devel provides the sqlite3.h header and the libsqlite3 link library.
+  The runtime package sqlite-libs is not sufficient.
+
+  qt6-qtbase-devel provides Qt 6 Widgets, Qt 6 Test, and Qt6Config.cmake.
+  The runtime package qt6-qtbase is not sufficient.
+
+  This build does not vendor Qt or SQLite and does not substitute another UI
+  toolkit, database, or test framework.
+
+  FFmpeg is intentionally not searched and is not linked.
+
+
+-- Configuring incomplete, errors occurred!

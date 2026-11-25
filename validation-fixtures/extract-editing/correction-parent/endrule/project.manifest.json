@@ -1,0 +1,11 @@
+{
+  "project_id": "43b8dc0e-0e97-4087-9796-be3c7169d877",
+  "name": "EndRule",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-23T13:11:11Z",
+  "modified": "2026-11-23T14:02:48Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

@@ -1,0 +1,104 @@
+# assumeno inspection (aborted at confirmation; no packages changed)
+--- stdout ---
+Package                Arch   Version             Repository      Size
+Installing:
+ qt6-qtbase-devel      x86_64 0:6.11.2-3.fc45     fedora      22.9 MiB
+ sqlite-devel          x86_64 0:3.53.4-1.fc45     fedora     713.2 KiB
+Installing dependencies:
+ libfbclient2          x86_64 0:5.0.4.1812-2.fc45 fedora       3.3 MiB
+ libpq                 x86_64 0:18.4-4.fc45       fedora       1.1 MiB
+ odbcinst-generate     noarch 0:2.3.14-36.fc45    fedora      22.5 KiB
+ qt6-qtbase-ibase      x86_64 0:6.11.2-3.fc45     fedora     158.6 KiB
+ qt6-qtbase-mysql      x86_64 0:6.11.2-3.fc45     fedora     118.4 KiB
+ qt6-qtbase-odbc       x86_64 0:6.11.2-3.fc45     fedora     154.0 KiB
+ qt6-qtbase-postgresql x86_64 0:6.11.2-3.fc45     fedora     138.2 KiB
+ qt6-rpm-macros        noarch 0:6.11.2-1.fc45     fedora       3.0 KiB
+ sqlite                x86_64 0:3.53.4-1.fc45     fedora       2.0 MiB
+ unixODBC              x86_64 0:2.3.14-36.fc45    fedora       1.0 MiB
+ vulkan-headers        noarch 0:1.4.350.0-4.fc45  fedora      38.8 MiB
+ vulkan-loader-devel   x86_64 0:1.4.350.0-2.fc45  fedora       8.0 KiB
+
+Transaction Summary:
+ Installing:        14 packages
+
+--- stderr ---
+Updating and loading repositories:
+ Cursor                                 100% |   2.4 KiB/s |   4.3 KiB |  00m02s
+ https://downloads.cursor.com/keys/anys 100% |   4.7 KiB/s |   1.6 KiB |  00m00s
+ Cursor                                 100% |   2.5 KiB/s |   4.3 KiB |  00m02s
+>>> repomd.xml GPG signature verification error: Signing key not found
+Repositories loaded.
+Total size of inbound packages is 9 MiB. Need to download 9 MiB.
+After this operation, 70 MiB extra will be used (install 70 MiB, remove 0 B).
+Warning: A pending offline transaction initiated by the following command will be invalidated: dnf5daemon-server
+Operation aborted by the user.
+
+# install after review, -y, cursor repo disabled so its key was not imported
+--- stdout ---
+Package                Arch   Version             Repository      Size
+Installing:
+ qt6-qtbase-devel      x86_64 0:6.11.2-3.fc45     fedora      22.9 MiB
+ sqlite-devel          x86_64 0:3.53.4-1.fc45     fedora     713.2 KiB
+Installing dependencies:
+ libfbclient2          x86_64 0:5.0.4.1812-2.fc45 fedora       3.3 MiB
+ libpq                 x86_64 0:18.4-4.fc45       fedora       1.1 MiB
+ odbcinst-generate     noarch 0:2.3.14-36.fc45    fedora      22.5 KiB
+ qt6-qtbase-ibase      x86_64 0:6.11.2-3.fc45     fedora     158.6 KiB
+ qt6-qtbase-mysql      x86_64 0:6.11.2-3.fc45     fedora     118.4 KiB
+ qt6-qtbase-odbc       x86_64 0:6.11.2-3.fc45     fedora     154.0 KiB
+ qt6-qtbase-postgresql x86_64 0:6.11.2-3.fc45     fedora     138.2 KiB
+ qt6-rpm-macros        noarch 0:6.11.2-1.fc45     fedora       3.0 KiB
+ sqlite                x86_64 0:3.53.4-1.fc45     fedora       2.0 MiB
+ unixODBC              x86_64 0:2.3.14-36.fc45    fedora       1.0 MiB
+ vulkan-headers        noarch 0:1.4.350.0-4.fc45  fedora      38.8 MiB
+ vulkan-loader-devel   x86_64 0:1.4.350.0-2.fc45  fedora       8.0 KiB
+
+Transaction Summary:
+ Installing:        14 packages
+
+--- stderr ---
+Updating and loading repositories:
+Repositories loaded.
+Total size of inbound packages is 9 MiB. Need to download 9 MiB.
+After this operation, 70 MiB extra will be used (install 70 MiB, remove 0 B).
+Warning: A pending offline transaction initiated by the following command will be invalidated: dnf5daemon-server
+[ 1/14] qt6-qtbase-ibase-0:6.11.2-3.fc4 100% |  48.8 KiB/s |  70.9 KiB |  00m01s
+[ 2/14] qt6-qtbase-mysql-0:6.11.2-3.fc4 100% |  37.6 KiB/s |  54.4 KiB |  00m01s
+[ 3/14] qt6-qtbase-postgresql-0:6.11.2- 100% |  32.0 KiB/s |  61.3 KiB |  00m02s
+[ 4/14] qt6-qtbase-odbc-0:6.11.2-3.fc45 100% |  33.3 KiB/s |  68.0 KiB |  00m02s
+[ 5/14] qt6-rpm-macros-0:6.11.2-1.fc45. 100% |  19.2 KiB/s |  11.8 KiB |  00m01s
+[ 6/14] libfbclient2-0:5.0.4.1812-2.fc4 100% | 148.0 KiB/s |   1.2 MiB |  00m08s
+[ 7/14] unixODBC-0:2.3.14-36.fc45.x86_6 100% |  52.0 KiB/s | 420.7 KiB |  00m08s
+[ 8/14] qt6-qtbase-devel-0:6.11.2-3.fc4 100% | 325.0 KiB/s |   4.3 MiB |  00m13s
+[ 9/14] libpq-0:18.4-4.fc45.x86_64      100% |  96.9 KiB/s | 292.8 KiB |  00m03s
+[10/14] odbcinst-generate-0:2.3.14-36.f 100% |   8.7 KiB/s |  22.0 KiB |  00m03s
+[11/14] sqlite-devel-0:3.53.4-1.fc45.x8 100% | 126.2 KiB/s | 156.6 KiB |  00m01s
+[12/14] vulkan-loader-devel-0:1.4.350.0 100% |  12.6 KiB/s |  12.4 KiB |  00m01s
+[13/14] sqlite-0:3.53.4-1.fc45.x86_64   100% | 369.5 KiB/s | 992.4 KiB |  00m03s
+[14/14] vulkan-headers-0:1.4.350.0-4.fc 100% | 249.5 KiB/s |   1.7 MiB |  00m07s
+--------------------------------------------------------------------------------
+[14/14] Total                           100% | 379.5 KiB/s |   9.3 MiB |  00m25s
+Running transaction
+[ 1/16] Verify package files            100% | 411.0   B/s |  14.0   B |  00m00s
+>>> Running %pretrans scriptlet: unixODBC-0:2.3.14-36.fc45.x86_64
+>>> Finished %pretrans scriptlet: unixODBC-0:2.3.14-36.fc45.x86_64
+>>> [RPM] libselinux: type 1: /etc/selinux/targeted/contexts/files/file_contexts.bin:  Regex version mismatch, expected: 10.49 2026-09-28 actual: 10.47 2025-10-21
+>>> [RPM] libselinux: type 1: /etc/selinux/targeted/contexts/files/file_contexts.homedirs.bin:  Regex version mismatch, expected: 10.49 2026-09-28 actual: 10.47 2025-10-21
+[ 2/16] Prepare transaction             100% |  36.0   B/s |  14.0   B |  00m00s
+[ 3/16] Installing vulkan-headers-0:1.4 100% | 761.5 MiB/s |  38.8 MiB |  00m00s
+[ 4/16] Installing vulkan-loader-devel- 100% |   4.4 MiB/s |   9.1 KiB |  00m00s
+[ 5/16] Installing sqlite-0:3.53.4-1.fc 100% |  94.2 MiB/s |   2.0 MiB |  00m00s
+[ 6/16] Installing odbcinst-generate-0: 100% | 538.3 KiB/s |  23.7 KiB |  00m00s
+[ 7/16] Installing unixODBC-0:2.3.14-36 100% |  20.4 MiB/s |   1.0 MiB |  00m00s
+[ 8/16] Installing qt6-qtbase-odbc-0:6. 100% |  30.4 MiB/s | 155.9 KiB |  00m00s
+[ 9/16] Installing libpq-0:18.4-4.fc45. 100% | 113.7 MiB/s |   1.1 MiB |  00m00s
+[10/16] Installing qt6-qtbase-postgresq 100% |  34.2 MiB/s | 140.1 KiB |  00m00s
+[11/16] Installing libfbclient2-0:5.0.4 100% | 364.3 MiB/s |   3.3 MiB |  00m00s
+[12/16] Installing qt6-qtbase-ibase-0:6 100% |  52.2 MiB/s | 160.4 KiB |  00m00s
+[13/16] Installing qt6-rpm-macros-0:6.1 100% | 272.1 KiB/s |   4.1 KiB |  00m00s
+[14/16] Installing qt6-qtbase-mysql-0:6 100% |  11.7 MiB/s | 120.2 KiB |  00m00s
+[15/16] Installing qt6-qtbase-devel-0:6 100% |  65.4 MiB/s |  23.4 MiB |  00m00s
+[16/16] Installing sqlite-devel-0:3.53. 100% |   1.0 MiB/s | 713.8 KiB |  00m01s
+Warning: Pending offline transaction has been invalidated.
+To reschedule, run: dnf5daemon-server
+Complete!

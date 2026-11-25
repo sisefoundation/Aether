@@ -1,0 +1,56 @@
+$ ffprobe -hide_banner -v error -select_streams a -show_entries packet=pts,duration,size,flags -of json /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/mpeg_25_8f.mxf
+exit=0
+----- stdout -----
+{
+    "packets": [
+        {
+            "pts": 0,
+            "duration": 1920,
+            "size": "11520",
+            "flags": "K__"
+        },
+        {
+            "pts": 1920,
+            "duration": 1920,
+            "size": "11520",
+            "flags": "K__"
+        },
+        {
+            "pts": 3840,
+            "duration": 1920,
+            "size": "11520",
+            "flags": "K__"
+        },
+        {
+            "pts": 5760,
+            "duration": 1920,
+            "size": "11520",
+            "flags": "K__"
+        },
+        {
+            "pts": 7680,
+            "duration": 1920,
+            "size": "11520",
+            "flags": "K__"
+        },
+        {
+            "pts": 9600,
+            "duration": 1920,
+            "size": "11520",
+            "flags": "K__"
+        },
+        {
+            "pts": 11520,
+            "duration": 1920,
+            "size": "11520",
+            "flags": "K__"
+        },
+        {
+            "pts": 13440,
+            "duration": 1920,
+            "size": "11520",
+            "flags": "K__"
+        }
+    ]
+}
+----- stderr -----

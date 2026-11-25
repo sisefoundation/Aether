@@ -1,0 +1,13 @@
+Test project /home/editry/development/sise-editor/build-slice1b
+  Test #1: slice0a
+
+Total Tests: 1
+ctest_list_exit=0
+Test project /home/editry/development/sise-editor/build-slice1b
+    Start 1: slice0a
+1/1 Test #1: slice0a ..........................   Passed    0.17 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.18 sec
+ctest_run_exit=0

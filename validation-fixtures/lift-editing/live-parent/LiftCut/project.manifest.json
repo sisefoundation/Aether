@@ -1,0 +1,11 @@
+{
+  "project_id": "d9b79f7f-1f7d-4250-b322-7e8c0e3db3ec",
+  "name": "LiftCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-23T03:07:26Z",
+  "modified": "2026-11-23T03:27:37Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

@@ -1,0 +1,21 @@
+date=2026-11-21T19:42:17+05:30
+Linux fedora 7.2.15-300.fc45.x86_64 #1 SMP PREEMPT_DYNAMIC Sun Nov  1 16:11:16 UTC 2026 x86_64 GNU/Linux
+g++ (GCC) 16.2.1 20261029 (Red Hat 16.2.1-3)
+cmake version 4.3.0
+uid=1000
+WAYLAND_DISPLAY=wayland-0
+DISPLAY=:0
+XDG_SESSION_TYPE=wayland
+sqlite_link:
+	libsqlite3.so.0 => /lib64/libsqlite3.so.0 (0x00007f0e539f2000)
+cmake_warning_count=0
+compiler_warning_count=0
+git:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+build_dirs:
+/home/editry/development/sise-editor/build
+/home/editry/development/sise-editor/build-slice0b
+/home/editry/development/sise-editor/build-slice1a
+/home/editry/development/sise-editor/build-slice1b
+/home/editry/development/sise-editor/build-slice1c

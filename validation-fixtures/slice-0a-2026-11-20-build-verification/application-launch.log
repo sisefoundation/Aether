@@ -1,0 +1,23 @@
+launch command: /home/editry/development/sise-editor/build/aether
+pid=35841
+info startup AETHER start
+=== wmctrl ===
+=== wmctrl stderr ===
+window_seen=0
+still running; sending SIGTERM to 35841
+process_exit=143
+
+=== xcb launch ===
+QT_QPA_PLATFORM=xcb /home/editry/development/sise-editor/build/aether
+xcb_pid=36009
+info startup AETHER start
+=== wmctrl after xcb ===
+0x01400007  0 36009  fedora AETHER
+=== wmctrl stderr ===
+xcb_window_seen=1
+=== xprop client list ===
+_NET_CLIENT_LIST(WINDOW): window id # 0x1400007
+_NET_CLIENT_LIST_STACKING(WINDOW): window id # 0x1400007
+=== wmctrl close ===
+info shutdown AETHER stop
+xcb_process_exit=0

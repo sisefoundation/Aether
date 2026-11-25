@@ -1,0 +1,52 @@
+{
+    "packets": [
+        {
+            "pts": 0,
+            "duration": 2002,
+            "size": "12012",
+            "flags": "K__"
+        },
+        {
+            "pts": 2002,
+            "duration": 2002,
+            "size": "12012",
+            "flags": "K__"
+        },
+        {
+            "pts": 4004,
+            "duration": 2002,
+            "size": "12012",
+            "flags": "K__"
+        },
+        {
+            "pts": 6006,
+            "duration": 2002,
+            "size": "12012",
+            "flags": "K__"
+        },
+        {
+            "pts": 8008,
+            "duration": 2002,
+            "size": "12012",
+            "flags": "K__"
+        },
+        {
+            "pts": 10010,
+            "duration": 2002,
+            "size": "12012",
+            "flags": "K__"
+        },
+        {
+            "pts": 12012,
+            "duration": 2002,
+            "size": "12012",
+            "flags": "K__"
+        },
+        {
+            "pts": 14014,
+            "duration": 2002,
+            "size": "12012",
+            "flags": "K__"
+        }
+    ]
+}

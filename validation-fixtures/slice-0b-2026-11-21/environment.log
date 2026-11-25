@@ -1,0 +1,14 @@
+date: 2026-11-21T18:14:33+05:30
+uname: Linux fedora 7.2.15-300.fc45.x86_64 #1 SMP PREEMPT_DYNAMIC Sun Nov  1 16:11:16 UTC 2026 x86_64 GNU/Linux
+os: Fedora Linux 45 (Workstation Edition)
+compiler: c++ (GCC) 16.2.1 20261029 (Red Hat 16.2.1-3)
+cmake: cmake version 4.3.0
+qt6-qtbase-devel: qt6-qtbase-devel-6.11.2-3.fc45.x86_64
+sqlite-devel: sqlite-devel-3.53.4-1.fc45.x86_64
+pkg-config sqlite3: 3.53.4
+pkg-config Qt6Widgets: 6.11.2
+WAYLAND_DISPLAY=wayland-0
+DISPLAY=:0
+XDG_SESSION_TYPE=wayland
+git: not a repository. Slice 0A did not run git init. This slice does not either. No branch. No HEAD.
+existing build dir preserved: /home/editry/development/sise-editor/build

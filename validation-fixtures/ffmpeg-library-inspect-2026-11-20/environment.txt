@@ -1,0 +1,66 @@
+=== date ===
+2026-11-20T14:33:20Z
+=== uname ===
+Linux fedora 7.2.15-300.fc45.x86_64 #1 SMP PREEMPT_DYNAMIC Sun Nov  1 16:11:16 UTC 2026 x86_64 GNU/Linux
+=== os-release ===
+NAME="Fedora Linux"
+VERSION="45 (Workstation Edition)"
+RELEASE_TYPE=stable
+ID=fedora
+VERSION_ID=45
+VERSION_CODENAME=""
+PRETTY_NAME="Fedora Linux 45 (Workstation Edition)"
+ANSI_COLOR="0;38;2;60;110;180"
+LOGO=fedora-logo-icon
+CPE_NAME="cpe:/o:fedoraproject:fedora:45"
+DEFAULT_HOSTNAME="fedora"
+HOME_URL="https://fedoraproject.org/"
+DOCUMENTATION_URL="https://docs.fedoraproject.org/en-US/fedora/f45/"
+SUPPORT_URL="https://ask.fedoraproject.org/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+REDHAT_BUGZILLA_PRODUCT="Fedora"
+REDHAT_BUGZILLA_PRODUCT_VERSION=45
+REDHAT_SUPPORT_PRODUCT="Fedora"
+REDHAT_SUPPORT_PRODUCT_VERSION=45
+SUPPORT_END=2027-12-08
+VARIANT="Workstation Edition"
+VARIANT_ID=workstation
+=== gcc ===
+gcc (GCC) 16.2.1 20261029 (Red Hat 16.2.1-3)
+=== g++ ===
+g++ (GCC) 16.2.1 20261029 (Red Hat 16.2.1-3)
+=== clang ===
+clang version 23.1.4 (Fedora 23.1.4-1.fc45)
+=== cmake ===
+cmake version 4.3.0
+=== pkg-config ===
+2.5.1
+=== rpm ===
+ffmpeg-9.0.2-3.fc45.x86_64
+ffmpeg-libs-9.0.2-3.fc45.x86_64
+package ffmpeg-devel is not installed
+pkgconf-pkg-config-2.5.1-2.fc45.x86_64
+cmake-4.3.0-5.fc45.x86_64
+gcc-16.2.1-3.fc45.x86_64
+gcc-c++-16.2.1-3.fc45.x86_64
+=== ffmpeg -version ===
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+built with gcc 16 (GCC)
+configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wno-complain-wrong-lang -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes ' --extra-cflags=' -I/usr/include/rav1e -I/usr/include/decklink' --extra-cxxflags=-I/usr/include/decklink --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --enable-decklink --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gmp --enable-version3 --enable-gnutls --enable-ladspa --enable-lcms2 --enable-libaom --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcodec2 --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-libcdio --enable-libdc1394 --enable-libiec61883 --enable-libdrm --enable-libdvdnav --enable-libdvdread --enable-libxeveb --enable-libxevdb --enable-libfdk-aac --enable-libflite --enable-libjack --enable-libjxl --enable-libklvanc --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libilbc --enable-liblc3 --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-nvdec --enable-openal --enable-liboapv --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-libplacebo --enable-librabbitmq --enable-librist --enable-librsvg --enable-librav1e --enable-librubberband --enable-libqrencode --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-libvvenc --enable-vulkan --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libvpl --enable-runtime-cpudetect
+libavutil      61.  1.102 / 61.  1.102
+libavcodec     63.  1.102 / 63.  1.102
+libavformat    63.  1.102 / 63.  1.102
+libavdevice    63.  1.102 / 63.  1.102
+libavfilter    12.  1.102 / 12.  1.102
+libswscale     10.  1.102 / 10.  1.102
+libswresample   7.  1.102 /  7.  1.102
+
+Exiting with exit code 0
+=== unversioned dev symlinks ===
+ls: cannot access '/usr/lib64/libavcodec.so': No such file or directory
+ls: cannot access '/usr/lib64/libavformat.so': No such file or directory
+ls: cannot access '/usr/lib64/libavutil.so': No such file or directory
+ls: cannot access '/usr/lib64/libswscale.so': No such file or directory
+ls: cannot access '/usr/lib64/libswresample.so': No such file or directory
+=== include dir ===
+ls: cannot access '/usr/include/ffmpeg': No such file or directory

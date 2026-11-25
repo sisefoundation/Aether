@@ -1,0 +1,11 @@
+{
+  "project_id": "735c8b26-2f09-448f-aaa9-34abe73ffeed",
+  "name": "OverwriteCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-22T17:58:17Z",
+  "modified": "2026-11-22T18:16:23Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

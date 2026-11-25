@@ -1,0 +1,21 @@
+$ ffmpeg -hide_banner -y -f lavfi -i color=c=black:s=32x32:r=30000/1001,format=yuv422p -frames:v 8 -c:v mpeg2video -b:v 80k -pix_fmt yuv422p -an -f mxf /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/video_only_8f_30000_1001.mxf
+exit=0
+----- stdout -----
+----- stderr -----
+Input #0, lavfi, from 'color=c=black:s=32x32:r=30000/1001,format=yuv422p':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv422p, 32x32 [SAR 1:1 DAR 1:1], 29.97 fps, 29.97 tbr, 29.97 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> mpeg2video (native))
+Press [q] to stop, [?] for help
+[mpeg2video @ 0x56289859a3c0] too many threads/slices (3), reducing to 2
+Output #0, mxf, to '/home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/video_only_8f_30000_1001.mxf':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: mpeg2video (4:2:2), yuv422p(tv, progressive), 32x32 [SAR 1:1 DAR 1:1], q=2-31, 80 kb/s, 29.97 fps, 29.97 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 mpeg2video
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/80000 buffer size: 0 vbv_delay: N/A
+[out#0/mxf @ 0x562898599740] video:0KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 4819.141914%
+frame=    8 fps=0.0 q=2.0 Lsize=      15KiB time=00:00:00.23 bitrate= 510.5kbits/s speed=67.6x elapsed=0:00:00.00    

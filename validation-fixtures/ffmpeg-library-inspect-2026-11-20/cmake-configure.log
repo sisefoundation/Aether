@@ -1,0 +1,29 @@
+-- The C compiler identification is GNU 16.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- Checking for modules 'libavutil;libavcodec;libavformat;libswscale;libswresample'
+--   Package 'libavutil' not found
+--   Package 'libavcodec' not found
+--   Package 'libavformat' not found
+--   Package 'libswscale' not found
+--   Package 'libswresample' not found
+CMake Error at /usr/share/cmake/Modules/FindPkgConfig.cmake:1093 (message):
+  The following required packages were not found:
+
+   - libavutil
+   - libavcodec
+   - libavformat
+   - libswscale
+   - libswresample
+
+Call Stack (most recent call first):
+  /usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)
+  CMakeLists.txt:10 (pkg_check_modules)
+
+
+-- Configuring incomplete, errors occurred!
+EXIT:1

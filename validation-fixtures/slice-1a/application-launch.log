@@ -1,0 +1,18 @@
+=== wayland shutdown-now ===
+info startup AETHER start
+info shutdown AETHER stop
+wayland_shutdown_exit=0
+=== xcb shutdown-now ===
+info startup AETHER start
+info shutdown AETHER stop
+xcb_shutdown_exit=0
+=== wayland window ===
+info startup AETHER start
+wayland_window_listed=no
+wayland_killed_exit=143
+=== xcb window ===
+info startup AETHER start
+0x01200007  0 fedora AETHER
+xcb_window_listed=yes
+info shutdown AETHER stop
+xcb_window_close_exit=0

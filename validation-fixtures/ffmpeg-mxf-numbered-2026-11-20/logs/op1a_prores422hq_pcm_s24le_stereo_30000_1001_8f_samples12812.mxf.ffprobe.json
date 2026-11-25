@@ -1,0 +1,60 @@
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "prores",
+            "profile": "HQ",
+            "codec_type": "video",
+            "width": 640,
+            "height": 360,
+            "pix_fmt": "yuv422p10le",
+            "r_frame_rate": "30000/1001",
+            "avg_frame_rate": "0/0",
+            "time_base": "1001/30000",
+            "duration_ts": 8,
+            "duration": "0.266933",
+            "bits_per_raw_sample": "10",
+            "nb_read_frames": "8"
+        },
+        {
+            "index": 1,
+            "codec_name": "pcm_s24le",
+            "codec_type": "audio",
+            "sample_fmt": "s32",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 12813,
+            "duration": "0.266937",
+            "bits_per_raw_sample": "24",
+            "nb_read_frames": "8"
+        }
+    ],
+    "format": {
+        "format_name": "mxf",
+        "duration": "0.266938",
+        "size": "114233",
+        "tags": {
+            "operational_pattern_ul": "060e2b34.04010101.0d010201.01010900",
+            "uid": "adab4424-2f25-4dc7-92ff-000c00000000",
+            "generation_uid": "adab4424-2f25-4dc7-92ff-000c00000001",
+            "company_name": "FFmpeg",
+            "product_name": "OP1a Muxer",
+            "product_version_num": "63.1.102.0.0",
+            "product_version": "63.1.102",
+            "application_platform": "Lavf (linux)",
+            "product_uid": "adab4424-2f25-4dc7-92ff-29bd000c0002",
+            "toolkit_version_num": "63.1.102.0.0",
+            "material_package_umid": "0x060A2B340101010501010D001311254052947134041125400052947134041100",
+            "timecode": "01:00:00;00"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+$ ffmpeg -hide_banner -y -f lavfi -i color=c=black:s=32x32:r=30000/1001,format=yuv422p -f s24le -ar 48000 -ac 2 -i /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/src/prores_30000_1001_8f_supplied12813.s24le -map 0:v:0 -map 1:a:0 -frames:v 8 -c:v prores_ks -profile:v hq -pix_fmt yuv422p10le -c:a pcm_s24le -f mxf /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/prores_30000_1001_8f_supplied12813.mxf
+exit=0
+----- stdout -----
+----- stderr -----
+Input #0, lavfi, from 'color=c=black:s=32x32:r=30000/1001,format=yuv422p':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv422p, 32x32 [SAR 1:1 DAR 1:1], 29.97 fps, 29.97 tbr, 29.97 tbn
+[in#1/s24le @ 0x5598c3502c00] Estimating duration from bitrate, this may be inaccurate
+[aist#1:0/pcm_s24le @ 0x5598c350bec0] Guessed Channel Layout: stereo
+Input #1, s24le, from '/home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/src/prores_30000_1001_8f_supplied12813.s24le':
+  Duration: 00:00:00.27, bitrate: 2303 kb/s
+  Stream #1:0: Audio: pcm_s24le, 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> prores (prores_ks))
+  Stream #1:0 -> #0:1 (pcm_s24le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+Output #0, mxf, to '/home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/prores_30000_1001_8f_supplied12813.mxf':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: prores (HQ) (apch / 0x68637061), yuv422p10le(tv, progressive), 32x32 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 prores_ks
+  Stream #0:1: Audio: pcm_s24le, 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+    Metadata:
+      encoder         : Lavc63.1.102 pcm_s24le
+[out#0/mxf @ 0x5598c350c040] video:2KiB audio:72KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 24.512590%
+frame=    8 fps=0.0 q=-0.0 Lsize=      92KiB time=00:00:00.26 bitrate=2809.8kbits/s speed=57.6x elapsed=0:00:00.00    

@@ -1,0 +1,52 @@
+{
+    "packets": [
+        {
+            "pts": 0,
+            "duration": 2000,
+            "size": "12000",
+            "flags": "K__"
+        },
+        {
+            "pts": 2000,
+            "duration": 2000,
+            "size": "12000",
+            "flags": "K__"
+        },
+        {
+            "pts": 4000,
+            "duration": 2000,
+            "size": "12000",
+            "flags": "K__"
+        },
+        {
+            "pts": 6000,
+            "duration": 2000,
+            "size": "12000",
+            "flags": "K__"
+        },
+        {
+            "pts": 8000,
+            "duration": 2000,
+            "size": "12000",
+            "flags": "K__"
+        },
+        {
+            "pts": 10000,
+            "duration": 2000,
+            "size": "12000",
+            "flags": "K__"
+        },
+        {
+            "pts": 12000,
+            "duration": 2000,
+            "size": "12000",
+            "flags": "K__"
+        },
+        {
+            "pts": 14000,
+            "duration": 2000,
+            "size": "12000",
+            "flags": "K__"
+        }
+    ]
+}

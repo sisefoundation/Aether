@@ -1,0 +1,30 @@
+$ ffmpeg -hide_banner -y -f lavfi -i color=c=black:s=32x32:r=30000/1001,format=yuv422p -f s24le -ar 48000 -ac 2 -i /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/src/mpeg_30000_1001_40f.s24le -map 0:v:0 -map 1:a:0 -frames:v 40 -c:v mpeg2video -b:v 80k -pix_fmt yuv422p -c:a pcm_s24le -f mxf /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/mpeg_30000_1001_40f.mxf
+exit=0
+----- stdout -----
+----- stderr -----
+Input #0, lavfi, from 'color=c=black:s=32x32:r=30000/1001,format=yuv422p':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv422p, 32x32 [SAR 1:1 DAR 1:1], 29.97 fps, 29.97 tbr, 29.97 tbn
+[in#1/s24le @ 0x557ac18c0c00] Estimating duration from bitrate, this may be inaccurate
+[aist#1:0/pcm_s24le @ 0x557ac18c9fc0] Guessed Channel Layout: stereo
+Input #1, s24le, from '/home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/src/mpeg_30000_1001_40f.s24le':
+  Duration: 00:00:01.33, bitrate: 2303 kb/s
+  Stream #1:0: Audio: pcm_s24le, 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> mpeg2video (native))
+  Stream #1:0 -> #0:1 (pcm_s24le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+[mpeg2video @ 0x557ac18cad80] too many threads/slices (3), reducing to 2
+Output #0, mxf, to '/home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/mpeg_30000_1001_40f.mxf':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: mpeg2video (4:2:2), yuv422p(tv, progressive), 32x32 [SAR 1:1 DAR 1:1], q=2-31, 80 kb/s, 29.97 fps, 29.97 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 mpeg2video
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/80000 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: pcm_s24le, 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+    Metadata:
+      encoder         : Lavc63.1.102 pcm_s24le
+[out#0/mxf @ 0x557ac18ca140] video:1KiB audio:375KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 13.600292%
+frame=   40 fps=0.0 q=2.0 Lsize=     428KiB time=00:00:01.33 bitrate=2627.3kbits/s speed= 381x elapsed=0:00:00.00    

@@ -1,0 +1,84 @@
+[  0%] Built target aether_timing_autogen_timestamp_deps
+[  0%] Built target aether_persistence_autogen_timestamp_deps
+[  5%] Automatic MOC for target aether_timing
+[  5%] Automatic MOC for target aether_persistence
+[  5%] Built target aether_persistence_autogen
+[  5%] Built target aether_timing_autogen
+[ 17%] Building CXX object src/CMakeFiles/aether_persistence.dir/persistence/manifest.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/aether_persistence.dir/core/sequence/sequence.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/aether_persistence.dir/core/project/ids.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/aether_persistence.dir/persistence/logger.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/aether_persistence.dir/aether_persistence_autogen/mocs_compilation.cpp.o
+[ 22%] Building CXX object src/CMakeFiles/aether_timing.dir/aether_timing_autogen/mocs_compilation.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/aether_timing.dir/core/timing/sample_boundary.cpp.o
+[ 28%] Building CXX object src/CMakeFiles/aether_persistence.dir/persistence/project_store.cpp.o
+[ 31%] Linking CXX static library libaether_timing.a
+[ 31%] Built target aether_timing
+[ 34%] Linking CXX static library libaether_persistence.a
+[ 34%] Built target aether_persistence
+[ 34%] Built target aether_session_autogen_timestamp_deps
+[ 37%] Automatic MOC for target aether_session
+[ 37%] Built target aether_session_autogen
+[ 42%] Building CXX object src/CMakeFiles/aether_session.dir/app/project_session.cpp.o
+[ 42%] Building CXX object src/CMakeFiles/aether_session.dir/aether_session_autogen/mocs_compilation.cpp.o
+[ 45%] Building CXX object src/CMakeFiles/aether_session.dir/core/media/import.cpp.o
+[ 48%] Linking CXX static library libaether_session.a
+[ 48%] Built target aether_session
+[ 48%] Built target aether_ui_autogen_timestamp_deps
+[ 51%] Automatic MOC for target aether_ui
+[ 51%] Built target aether_ui_autogen
+[ 60%] Building CXX object src/CMakeFiles/aether_ui.dir/ui/timeline_workspace.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/aether_ui.dir/ui/main_window.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/aether_ui.dir/aether_ui_autogen/mocs_compilation.cpp.o
+[ 62%] Linking CXX static library libaether_ui.a
+[ 62%] Built target aether_ui
+[ 62%] Built target aether_slice0a_tests_autogen_timestamp_deps
+[ 62%] Built target aether_autogen_timestamp_deps
+[ 65%] Automatic MOC for target aether
+[ 68%] Automatic MOC for target aether_slice0a_tests
+[ 68%] Built target aether_autogen
+[ 74%] Building CXX object src/CMakeFiles/aether.dir/aether_autogen/mocs_compilation.cpp.o
+[ 74%] Building CXX object src/CMakeFiles/aether.dir/ui/main.cpp.o
+[ 74%] Built target aether_slice0a_tests_autogen
+[ 91%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/sequence_tests.cpp.o
+[ 91%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/timing_tests.cpp.o
+[ 91%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/aether_slice0a_tests_autogen/mocs_compilation.cpp.o
+[ 91%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/main.cpp.o
+[ 91%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/media_import_tests.cpp.o
+[ 91%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/project_tests.cpp.o
+[ 94%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/timeline_workspace_tests.cpp.o
+[ 97%] Linking CXX executable aether
+/home/editry/development/sise-editor/tests/media_import_tests.cpp: In member function ‘void MediaImportTests::databaseFailureRollsBackTheBatch()’:
+/home/editry/development/sise-editor/tests/media_import_tests.cpp:237:31: error: invalid use of incomplete type ‘class aether::ProjectStore’
+  237 |   scratch.session.storeForTest().debugArmNextMutationFailure();
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /home/editry/development/sise-editor/tests/media_import_tests.cpp:20:
+/home/editry/development/sise-editor/include/aether/app/project_session.hpp:39:7: note: forward declaration of ‘class aether::ProjectStore’
+   39 | class ProjectStore;
+      |       ^~~~~~~~~~~~
+[ 97%] Built target aether
+gmake[2]: *** [tests/CMakeFiles/aether_slice0a_tests.dir/build.make:163: tests/CMakeFiles/aether_slice0a_tests.dir/media_import_tests.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:1596: tests/CMakeFiles/aether_slice0a_tests.dir/all] Error 2
+gmake: *** [Makefile:101: all] Error 2
+[  0%] Built target aether_persistence_autogen_timestamp_deps
+[  0%] Built target aether_timing_autogen_timestamp_deps
+[  5%] Built target aether_persistence_autogen
+[  5%] Built target aether_timing_autogen
+[ 14%] Built target aether_timing
+[ 34%] Built target aether_persistence
+[ 34%] Built target aether_session_autogen_timestamp_deps
+[ 37%] Built target aether_session_autogen
+[ 48%] Built target aether_session
+[ 48%] Built target aether_ui_autogen_timestamp_deps
+[ 51%] Built target aether_ui_autogen
+[ 62%] Built target aether_ui
+[ 62%] Built target aether_autogen_timestamp_deps
+[ 62%] Built target aether_slice0a_tests_autogen_timestamp_deps
+[ 65%] Built target aether_autogen
+[ 68%] Automatic MOC for target aether_slice0a_tests
+[ 77%] Built target aether
+[ 77%] Built target aether_slice0a_tests_autogen
+[ 80%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/media_import_tests.cpp.o
+[ 82%] Linking CXX executable aether_slice0a_tests
+[100%] Built target aether_slice0a_tests

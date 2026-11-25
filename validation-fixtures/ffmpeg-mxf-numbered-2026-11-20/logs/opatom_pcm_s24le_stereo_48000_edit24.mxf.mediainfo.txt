@@ -1,0 +1,5 @@
+General
+Complete name                            : /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/out/opatom_pcm_s24le_stereo_48000_edit24.mxf
+File size                                : 0.00 Byte
+
+

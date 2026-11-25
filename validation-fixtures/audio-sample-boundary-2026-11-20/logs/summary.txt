@@ -1,0 +1,210 @@
+== arithmetic: existing sampleIndex / candidate sample_boundary ==
+sample_boundary(n) = floor(n * 48000 * den / num) for n >= 0
+segment(start, end) = sample_boundary(end) - sample_boundary(start)
+-- rate 24 24/1
+boundary(0)=0
+boundary(1)=2000
+boundary(2)=4000
+boundary(5)=10000
+boundary(8)=16000
+boundary(16)=32000
+boundary(24)=48000
+boundary(40)=80000
+boundary(100)=200000
+boundary(1000)=2000000
+boundary(107892)=215784000
+boundary(200000)=400000000
+walk_sum(0,200000)=400000000 boundary=400000000 match=True
+adjacent eight-frame segments from frame 0:
+  [0,8) samples=16000 abs_start=0 abs_end=16000
+  [8,16) samples=16000 abs_start=16000 abs_end=32000
+  [16,24) samples=16000 abs_start=32000 abs_end=48000
+  [24,32) samples=16000 abs_start=48000 abs_end=64000
+  [32,40) samples=16000 abs_start=64000 abs_end=80000
+  [40,48) samples=16000 abs_start=80000 abs_end=96000
+  [48,56) samples=16000 abs_start=96000 abs_end=112000
+  [56,64) samples=16000 abs_start=112000 abs_end=128000
+  sum_of_segments=128000 union[0,64)=128000 tile=True
+  span[0,8)=16000 origin_8=16000 equal_to_origin=True
+  span[8,16)=16000 origin_8=16000 equal_to_origin=True
+  span[100,108)=16000 origin_8=16000 equal_to_origin=True
+  span[1000,1008)=16000 origin_8=16000 equal_to_origin=True
+  edit[0,8)=16000
+  edit[8,24)=32000
+  edit[24,25)=2000
+  edit[25,40)=30000
+  edit_sum=80000 union=80000 tile=True
+-- rate 25 25/1
+boundary(0)=0
+boundary(1)=1920
+boundary(2)=3840
+boundary(5)=9600
+boundary(8)=15360
+boundary(16)=30720
+boundary(24)=46080
+boundary(40)=76800
+boundary(100)=192000
+boundary(1000)=1920000
+boundary(107892)=207152640
+boundary(200000)=384000000
+walk_sum(0,200000)=384000000 boundary=384000000 match=True
+adjacent eight-frame segments from frame 0:
+  [0,8) samples=15360 abs_start=0 abs_end=15360
+  [8,16) samples=15360 abs_start=15360 abs_end=30720
+  [16,24) samples=15360 abs_start=30720 abs_end=46080
+  [24,32) samples=15360 abs_start=46080 abs_end=61440
+  [32,40) samples=15360 abs_start=61440 abs_end=76800
+  [40,48) samples=15360 abs_start=76800 abs_end=92160
+  [48,56) samples=15360 abs_start=92160 abs_end=107520
+  [56,64) samples=15360 abs_start=107520 abs_end=122880
+  sum_of_segments=122880 union[0,64)=122880 tile=True
+  span[0,8)=15360 origin_8=15360 equal_to_origin=True
+  span[8,16)=15360 origin_8=15360 equal_to_origin=True
+  span[100,108)=15360 origin_8=15360 equal_to_origin=True
+  span[1000,1008)=15360 origin_8=15360 equal_to_origin=True
+  edit[0,8)=15360
+  edit[8,24)=30720
+  edit[24,25)=1920
+  edit[25,40)=28800
+  edit_sum=76800 union=76800 tile=True
+-- rate 24000_1001 24000/1001
+boundary(0)=0
+boundary(1)=2002
+boundary(2)=4004
+boundary(5)=10010
+boundary(8)=16016
+boundary(16)=32032
+boundary(24)=48048
+boundary(40)=80080
+boundary(100)=200200
+boundary(1000)=2002000
+boundary(107892)=215999784
+boundary(200000)=400400000
+walk_sum(0,200000)=400400000 boundary=400400000 match=True
+adjacent eight-frame segments from frame 0:
+  [0,8) samples=16016 abs_start=0 abs_end=16016
+  [8,16) samples=16016 abs_start=16016 abs_end=32032
+  [16,24) samples=16016 abs_start=32032 abs_end=48048
+  [24,32) samples=16016 abs_start=48048 abs_end=64064
+  [32,40) samples=16016 abs_start=64064 abs_end=80080
+  [40,48) samples=16016 abs_start=80080 abs_end=96096
+  [48,56) samples=16016 abs_start=96096 abs_end=112112
+  [56,64) samples=16016 abs_start=112112 abs_end=128128
+  sum_of_segments=128128 union[0,64)=128128 tile=True
+  span[0,8)=16016 origin_8=16016 equal_to_origin=True
+  span[8,16)=16016 origin_8=16016 equal_to_origin=True
+  span[100,108)=16016 origin_8=16016 equal_to_origin=True
+  span[1000,1008)=16016 origin_8=16016 equal_to_origin=True
+  edit[0,8)=16016
+  edit[8,24)=32032
+  edit[24,25)=2002
+  edit[25,40)=30030
+  edit_sum=80080 union=80080 tile=True
+-- rate 30000_1001 30000/1001
+boundary(0)=0
+boundary(1)=1601
+boundary(2)=3203
+boundary(5)=8008
+boundary(8)=12812
+boundary(16)=25625
+boundary(24)=38438
+boundary(40)=64064
+boundary(100)=160160
+boundary(1000)=1601600
+boundary(107892)=172799827
+boundary(200000)=320320000
+walk_sum(0,200000)=320320000 boundary=320320000 match=True
+adjacent eight-frame segments from frame 0:
+  [0,8) samples=12812 abs_start=0 abs_end=12812
+  [8,16) samples=12813 abs_start=12812 abs_end=25625
+  [16,24) samples=12813 abs_start=25625 abs_end=38438
+  [24,32) samples=12813 abs_start=38438 abs_end=51251
+  [32,40) samples=12813 abs_start=51251 abs_end=64064
+  [40,48) samples=12812 abs_start=64064 abs_end=76876
+  [48,56) samples=12813 abs_start=76876 abs_end=89689
+  [56,64) samples=12813 abs_start=89689 abs_end=102502
+  sum_of_segments=102502 union[0,64)=102502 tile=True
+  span[0,8)=12812 origin_8=12812 equal_to_origin=True
+  span[8,16)=12813 origin_8=12812 equal_to_origin=False
+  span[100,108)=12812 origin_8=12812 equal_to_origin=True
+  span[1000,1008)=12812 origin_8=12812 equal_to_origin=True
+  edit[0,8)=12812
+  edit[8,24)=25626
+  edit[24,25)=1602
+  edit[25,40)=24024
+  edit_sum=64064 union=64064 tile=True
+first_8_frame_sizes=[1601, 1602, 1601, 1602, 1602, 1601, 1602, 1601] sum=12812
+boundary(8)=12812 expected_contract=12812
+-- rate 30 30/1
+boundary(0)=0
+boundary(1)=1600
+boundary(2)=3200
+boundary(5)=8000
+boundary(8)=12800
+boundary(16)=25600
+boundary(24)=38400
+boundary(40)=64000
+boundary(100)=160000
+boundary(1000)=1600000
+boundary(107892)=172627200
+boundary(200000)=320000000
+walk_sum(0,200000)=320000000 boundary=320000000 match=True
+adjacent eight-frame segments from frame 0:
+  [0,8) samples=12800 abs_start=0 abs_end=12800
+  [8,16) samples=12800 abs_start=12800 abs_end=25600
+  [16,24) samples=12800 abs_start=25600 abs_end=38400
+  [24,32) samples=12800 abs_start=38400 abs_end=51200
+  [32,40) samples=12800 abs_start=51200 abs_end=64000
+  [40,48) samples=12800 abs_start=64000 abs_end=76800
+  [48,56) samples=12800 abs_start=76800 abs_end=89600
+  [56,64) samples=12800 abs_start=89600 abs_end=102400
+  sum_of_segments=102400 union[0,64)=102400 tile=True
+  span[0,8)=12800 origin_8=12800 equal_to_origin=True
+  span[8,16)=12800 origin_8=12800 equal_to_origin=True
+  span[100,108)=12800 origin_8=12800 equal_to_origin=True
+  span[1000,1008)=12800 origin_8=12800 equal_to_origin=True
+  edit[0,8)=12800
+  edit[8,24)=25600
+  edit[24,25)=1600
+  edit[25,40)=24000
+  edit_sum=64000 union=64000 tile=True
+== rounding alternatives at 30000/1001, 48000 ==
+n=0 floor=0 ceil=0 nearest_half_up=0 exact=0/30000
+n=1 floor=1601 ceil=1602 nearest_half_up=1602 exact=48048000/30000
+n=5 floor=8008 ceil=8008 nearest_half_up=8008 exact=240240000/30000
+n=8 floor=12812 ceil=12813 nearest_half_up=12813 exact=384384000/30000
+n=10 floor=16016 ceil=16016 nearest_half_up=16016 exact=480480000/30000
+n=16 floor=25625 ceil=25626 nearest_half_up=25626 exact=768768000/30000
+n=40 floor=64064 ceil=64064 nearest_half_up=64064 exact=1921920000/30000
+n=1000 floor=1601600 ceil=1601600 nearest_half_up=1601600 exact=48048000000/30000
+n=107892 floor=172799827 ceil=172799828 nearest_half_up=172799827 exact=5183994816000/30000
+constant_1602_over_1000=1602000 floor=1601600 drift=400
+== negative index ==
+editorial rule rejects a negative stored position; sample_boundary(n) is specified for n >= 0 only
+illustration_only F=-1 product=-48048000 python_floor_div=-1602 toward_zero_trunc=-1601 these_are_not_a_contract
+== ffmpeg measurements ==
+mpeg_24_8f frames=8 supplied=16000 expect_boundary=16000 audio_nb_samples=None duration_ts=16000 video_nb_frames=None r_frame_rate=24/1 audio_packets=8 packet_duration_sum=16000 first_packets=[2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000]
+mpeg_25_8f frames=8 supplied=15360 expect_boundary=15360 audio_nb_samples=None duration_ts=15360 video_nb_frames=None r_frame_rate=25/1 audio_packets=8 packet_duration_sum=15360 first_packets=[1920, 1920, 1920, 1920, 1920, 1920, 1920, 1920]
+mpeg_24000_1001_8f frames=8 supplied=16016 expect_boundary=16016 audio_nb_samples=None duration_ts=16016 video_nb_frames=None r_frame_rate=24000/1001 audio_packets=8 packet_duration_sum=16016 first_packets=[2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002]
+mpeg_30000_1001_8f frames=8 supplied=12812 expect_boundary=12812 audio_nb_samples=None duration_ts=12813 video_nb_frames=None r_frame_rate=30000/1001 audio_packets=8 packet_duration_sum=12813 first_packets=[1602, 1601, 1602, 1601, 1602, 1602, 1601, 1602]
+mpeg_30_8f frames=8 supplied=12800 expect_boundary=12800 audio_nb_samples=None duration_ts=12800 video_nb_frames=None r_frame_rate=30/1 audio_packets=8 packet_duration_sum=12800 first_packets=[1600, 1600, 1600, 1600, 1600, 1600, 1600, 1600]
+prores_30000_1001_8f_supplied12812 frames=8 supplied=12812 expect_boundary=12812 audio_nb_samples=None duration_ts=12813 video_nb_frames=None r_frame_rate=30000/1001 audio_packets=8 packet_duration_sum=12813 first_packets=[1602, 1601, 1602, 1601, 1602, 1602, 1601, 1602]
+prores_30000_1001_8f_supplied12813 frames=8 supplied=12813 expect_boundary=12812 audio_nb_samples=None duration_ts=12813 video_nb_frames=None r_frame_rate=30000/1001 audio_packets=8 packet_duration_sum=12813 first_packets=[1602, 1601, 1602, 1601, 1602, 1602, 1601, 1602]
+mpeg_30000_1001_40f frames=40 supplied=64064 expect_boundary=64064 audio_nb_samples=None duration_ts=64064 video_nb_frames=None r_frame_rate=30000/1001 audio_packets=40 packet_duration_sum=64064 first_packets=[1602, 1601, 1602, 1601, 1602, 1602, 1601, 1602, 1601, 1602, 1602, 1601]
+mpeg_30000_1001_40f cumulative_vs_floor max_abs_error=1 error_increased_somewhere=True final_acc=64064 final_floor=64064
+mpeg_30000_1001_40f segment[0,8) ffmpeg=12813 contract=12812 abs_contract_start=0 abs_ffmpeg_start=0
+mpeg_30000_1001_40f segment[8,16) ffmpeg=12813 contract=12813 abs_contract_start=12812 abs_ffmpeg_start=12813
+mpeg_30000_1001_40f segment[16,24) ffmpeg=12812 contract=12813 abs_contract_start=25625 abs_ffmpeg_start=25626
+mpeg_30000_1001_40f segment[24,32) ffmpeg=12813 contract=12813 abs_contract_start=38438 abs_ffmpeg_start=38438
+mpeg_30000_1001_40f segment[32,40) ffmpeg=12813 contract=12813 abs_contract_start=51251 abs_ffmpeg_start=51251
+mpeg_30000_1001_600f frames=600 supplied=960960 expect_boundary=960960 audio_nb_samples=None duration_ts=960960 video_nb_frames=None r_frame_rate=30000/1001 audio_packets=600 packet_duration_sum=960960 first_packets=[1602, 1601, 1602, 1601, 1602, 1602, 1601, 1602, 1601, 1602, 1602, 1601]
+mpeg_30000_1001_600f cumulative_vs_floor max_abs_error=1 error_increased_somewhere=True final_acc=960960 final_floor=960960
+mpeg_30000_1001_600f segment[0,8) ffmpeg=12813 contract=12812 abs_contract_start=0 abs_ffmpeg_start=0
+mpeg_30000_1001_600f segment[8,16) ffmpeg=12813 contract=12813 abs_contract_start=12812 abs_ffmpeg_start=12813
+mpeg_30000_1001_600f segment[16,24) ffmpeg=12812 contract=12813 abs_contract_start=25625 abs_ffmpeg_start=25626
+mpeg_30000_1001_600f segment[24,32) ffmpeg=12813 contract=12813 abs_contract_start=38438 abs_ffmpeg_start=38438
+mpeg_30000_1001_600f segment[32,40) ffmpeg=12813 contract=12813 abs_contract_start=51251 abs_ffmpeg_start=51251
+mpeg_24_40f frames=40 supplied=80000 expect_boundary=80000 audio_nb_samples=None duration_ts=80000 video_nb_frames=None r_frame_rate=24/1 audio_packets=40 packet_duration_sum=80000 first_packets=[2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000]
+mpeg_24000_1001_40f frames=40 supplied=80080 expect_boundary=80080 audio_nb_samples=None duration_ts=80080 video_nb_frames=None r_frame_rate=24000/1001 audio_packets=40 packet_duration_sum=80080 first_packets=[2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002]
+audio_only_wav supplied=12812 nb_samples=None duration_ts=12812 video_present=False
+video_only_mxf video_nb_frames=None audio_present=False

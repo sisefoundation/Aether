@@ -1,0 +1,307 @@
+START 2026-11-20T17:14:30+05:30
+HOST Linux fedora 7.2.15-300.fc45.x86_64 #1 SMP PREEMPT_DYNAMIC Sun Nov  1 16:11:16 UTC 2026 x86_64 GNU/Linux
+FFMPEG /usr/bin/ffmpeg
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+built with gcc 16 (GCC)
+configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wno-complain-wrong-lang -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes ' --extra-cflags=' -I/usr/include/rav1e -I/usr/include/decklink' --extra-cxxflags=-I/usr/include/decklink --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --enable-decklink --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gmp --enable-version3 --enable-gnutls --enable-ladspa --enable-lcms2 --enable-libaom --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcodec2 --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-libcdio --enable-libdc1394 --enable-libiec61883 --enable-libdrm --enable-libdvdnav --enable-libdvdread --enable-libxeveb --enable-libxevdb --enable-libfdk-aac --enable-libflite --enable-libjack --enable-libjxl --enable-libklvanc --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libilbc --enable-liblc3 --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-nvdec --enable-openal --enable-liboapv --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-libplacebo --enable-librabbitmq --enable-librist --enable-librsvg --enable-librav1e --enable-librubberband --enable-libqrencode --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-libvvenc --enable-vulkan --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libvpl --enable-runtime-cpudetect
+libavutil      61.  1.102 / 61.  1.102
+libavcodec     63.  1.102 / 63.  1.102
+libavformat    63.  1.102 / 63.  1.102
+libavdevice    63.  1.102 / 63.  1.102
+libavfilter    12.  1.102 / 12.  1.102
+libswscale     10.  1.102 / 10.  1.102
+libswresample   7.  1.102 /  7.  1.102
+
+Exiting with exit code 0
+FFPROBE ffprobe version 9.0.2 Copyright (c) 2007-2026 the FFmpeg developers
+MEDIAINFO MediaInfo Command line, 
+MediaInfoLib - v26.05
+RPM ffmpeg-9.0.2-3.fc45.x86_64
+ffmpeg-libs-9.0.2-3.fc45.x86_64
+package ffmpeg-devel is not installed
+===== CONFIGURATION =====
+
+  configuration:
+    --prefix=/usr
+    --bindir=/usr/bin
+    --datadir=/usr/share/ffmpeg
+    --docdir=/usr/share/doc/ffmpeg
+    --incdir=/usr/include/ffmpeg
+    --libdir=/usr/lib64
+    --mandir=/usr/share/man
+    --arch=x86_64
+    --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wno-complain-wrong-lang -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer'
+    --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes '
+    --extra-cflags=' -I/usr/include/rav1e -I/usr/include/decklink'
+    --extra-cxxflags=-I/usr/include/decklink
+    --enable-libopencore-amrnb
+    --enable-libopencore-amrwb
+    --enable-libvo-amrwbenc
+    --enable-version3
+    --enable-bzlib
+    --enable-chromaprint
+    --enable-decklink
+    --enable-fontconfig
+    --enable-frei0r
+    --enable-gcrypt
+    --enable-gmp
+    --enable-version3
+    --enable-gnutls
+    --enable-ladspa
+    --enable-lcms2
+    --enable-libaom
+    --enable-libaribb24
+    --enable-libaribcaption
+    --enable-libdav1d
+    --enable-libass
+    --enable-libbluray
+    --enable-libbs2b
+    --enable-libcaca
+    --enable-libcodec2
+    --enable-cuda
+    --enable-cuda-llvm
+    --enable-cuvid
+    --enable-libcdio
+    --enable-libdc1394
+    --enable-libiec61883
+    --enable-libdrm
+    --enable-libdvdnav
+    --enable-libdvdread
+    --enable-libxeveb
+    --enable-libxevdb
+    --enable-libfdk-aac
+    --enable-libflite
+    --enable-libjack
+    --enable-libjxl
+    --enable-libklvanc
+    --enable-libfreetype
+    --enable-libfribidi
+    --enable-libgme
+    --enable-libgsm
+    --enable-libharfbuzz
+    --enable-libilbc
+    --enable-liblc3
+    --enable-libmp3lame
+    --enable-libmysofa
+    --enable-nvenc
+    --enable-nvdec
+    --enable-openal
+    --enable-liboapv
+    --enable-opencl
+    --enable-opengl
+    --enable-libopenh264
+    --enable-libopenjpeg
+    --enable-libopenmpt
+    --enable-libopus
+    --enable-libpulse
+    --enable-libplacebo
+    --enable-librabbitmq
+    --enable-librist
+    --enable-librsvg
+    --enable-librav1e
+    --enable-librubberband
+    --enable-libqrencode
+    --enable-libsmbclient
+    --enable-version3
+    --enable-libsnappy
+    --enable-libsoxr
+    --enable-libspeex
+    --enable-libsrt
+    --enable-libssh
+    --enable-libsvtav1
+    --enable-libtesseract
+    --enable-libtheora
+    --enable-libtwolame
+    --enable-libvorbis
+    --enable-libv4l2
+    --enable-libvidstab
+    --enable-libvmaf
+    --enable-version3
+    --enable-vapoursynth
+    --enable-libvpx
+    --enable-libvvenc
+    --enable-vulkan
+    --enable-libwebp
+    --enable-libx264
+    --enable-libx265
+    --enable-libxvid
+    --enable-libxml2
+    --enable-libzimg
+    --enable-libzmq
+    --enable-libzvbi
+    --enable-lv2
+    --enable-avfilter
+    --enable-libmodplug
+    --enable-pthreads
+    --disable-static
+    --enable-shared
+    --enable-gpl
+    --disable-debug
+    --disable-stripping
+    --shlibdir=/usr/lib64
+    --enable-lto
+    --enable-libvpl
+    --enable-runtime-cpudetect
+
+Exiting with exit code 0
+===== MUXERS mxf/wav/mov =====
+  E  mov             QuickTime / MOV
+  E  mxf             MXF (Material eXchange Format)
+  E  mxf_d10         MXF (Material eXchange Format) D-10 Mapping
+  E  mxf_opatom      MXF (Material eXchange Format) Operational Pattern Atom
+  E  wav             WAV / WAVE (Waveform Audio)
+===== ENCODERS =====
+ VFS..D dnxhd                VC3/DNxHD
+ VF...D prores               Apple ProRes
+ VF...D prores_aw            Apple ProRes (codec prores)
+ VFS... prores_ks            Apple ProRes (iCodec Pro) (codec prores)
+ V..... prores_ks_vulkan     Apple ProRes (iCodec Pro) (codec prores)
+ A....D pcm_s16be            PCM signed 16-bit big-endian
+ A....D pcm_s16be_planar     PCM signed 16-bit big-endian planar
+ A....D pcm_s16le            PCM signed 16-bit little-endian
+ A....D pcm_s16le_planar     PCM signed 16-bit little-endian planar
+ A....D pcm_s24be            PCM signed 24-bit big-endian
+ A....D pcm_s24daud          PCM D-Cinema audio signed 24-bit
+ A....D pcm_s24le            PCM signed 24-bit little-endian
+ A....D pcm_s24le_planar     PCM signed 24-bit little-endian planar
+ A....D pcm_s32be            PCM signed 32-bit big-endian
+ A....D pcm_s32le            PCM signed 32-bit little-endian
+ A....D pcm_s32le_planar     PCM signed 32-bit little-endian planar
+source frames 24 and 8 written; audio bytes 288000
+SOURCE COUNTS
+24
+8
+/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_24_mono_48000.s24le 144000
+/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_24_stereo_48000.s24le 288000
+/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_2997_stereo_12812.s24le 76872
+/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_2997_stereo_12813.s24le 76878
+===== OP1A 24fps ProRes HQ + pcm_s24le stereo =====
+Input #0, image2, from '/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/frame24_%02d.ppm':
+  Duration: 00:00:01.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: ppm, rgb24, 640x360, 24 fps, 24 tbr, 24 tbn
+Option frames:v (set the number of frames to output) cannot be applied to input url /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_24_stereo_48000.s24le -- you are trying to apply an input option to an output file or vice versa. Move this option before the file it belongs to.
+Error parsing options for input file /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_24_stereo_48000.s24le.
+Error opening input files: Invalid argument
+OP1A_24_EXIT 234
+===== OP1A 30000/1001 with contract sample count 12812 =====
+Input #0, image2, from '/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/frame2997_%02d.ppm':
+  Duration: 00:00:00.27, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: ppm, rgb24, 640x360, 29.97 fps, 29.97 tbr, 29.97 tbn
+Option frames:v (set the number of frames to output) cannot be applied to input url /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_2997_stereo_12812.s24le -- you are trying to apply an input option to an output file or vice versa. Move this option before the file it belongs to.
+Error parsing options for input file /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_2997_stereo_12812.s24le.
+Error opening input files: Invalid argument
+OP1A_2997_12812_EXIT 234
+===== OP1A 30000/1001 with 12813 samples =====
+Input #0, image2, from '/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/frame2997_%02d.ppm':
+  Duration: 00:00:00.27, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: ppm, rgb24, 640x360, 29.97 fps, 29.97 tbr, 29.97 tbn
+Option frames:v (set the number of frames to output) cannot be applied to input url /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_2997_stereo_12813.s24le -- you are trying to apply an input option to an output file or vice versa. Move this option before the file it belongs to.
+Error parsing options for input file /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_2997_stereo_12813.s24le.
+Error opening input files: Invalid argument
+OP1A_2997_12813_EXIT 234
+===== OP-Atom picture only =====
+Input #0, image2, from '/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/frame24_%02d.ppm':
+  Duration: 00:00:01.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: ppm, rgb24, 640x360, 24 fps, 24 tbr, 24 tbn
+[out#0/mxf_opatom @ 0x55e241a614c0] Codec AVOption gop_timecode (MPEG GOP Timecode in hh:mm:ss[:;.]ff format. Overrides timecode_frame_start.) has not been used for any stream. The most likely reason is either wrong type (e.g. a video option with no video streams) or that it is a private option of some decoder which was not actually used for any stream.
+Stream mapping:
+  Stream #0:0 -> #0:0 (ppm (native) -> prores (prores_ks))
+Press [q] to stop, [?] for help
+Output #0, mxf_opatom, to '/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/out/opatom_prores422hq_picture_24fps_24f.mxf':
+  Metadata:
+    timecode        : 01:00:00:00
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: prores (HQ) (apch / 0x68637061), yuv422p10le(tv, progressive), 640x360, q=2-31, 200 kb/s, 24 fps, 24 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 prores_ks
+[out#0/mxf_opatom @ 0x55e241a614c0] video:65KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 11.151504%
+frame=   24 fps=0.0 q=-0.0 Lsize=      73KiB time=00:00:01.00 bitrate= 594.4kbits/s speed=22.1x elapsed=0:00:00.04    
+OPATOM_PICTURE_EXIT 0
+===== OP-Atom mono audio edit rate 24/1 =====
+Option channels not found.
+Error opening input file /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_24_mono_48000.s24le.
+Error opening input files: Option not found
+OPATOM_MONO_EXIT 8
+===== OP-Atom stereo audio (expected separate result, not implied by muxer name) =====
+Option channels not found.
+Error opening input file /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/src/audio_24_stereo_48000.s24le.
+Error opening input files: Option not found
+OPATOM_STEREO_EXIT 8
+===== OUTPUT STAT =====
+/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/out/opatom_prores422hq_picture_24fps_24f.mxf 74297
+===== FFPROBE =====
+----- /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/out/opatom_prores422hq_picture_24fps_24f.mxf -----
+Input #0, mxf, from '/home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/out/opatom_prores422hq_picture_24fps_24f.mxf':
+  Metadata:
+    operational_pattern_ul: 060e2b34.04010102.0d010201.10030000
+    uid             : adab4424-2f25-4dc7-92ff-000c00000000
+    generation_uid  : adab4424-2f25-4dc7-92ff-000c00000001
+    company_name    : FFmpeg
+    product_name    : OPAtom Muxer
+    product_version_num: 63.1.102.0.0
+    product_version : 63.1.102
+    application_platform: Lavf (linux)
+    product_uid     : adab4424-2f25-4dc7-92ff-29bd000c0002
+    toolkit_version_num: 63.1.102.0.0
+    material_package_umid: 0x060A2B340101010501010D0013CBA3225294713404CBA322005294713404CB00
+    timecode        : 01:00:00:00
+  Duration: 00:00:01.00, start: 0.000000, bitrate: 594 kb/s
+  Stream #0:0: Video: prores (HQ) (apch / 0x68637061), yuv422p10le(tv, progressive), 640x360, 24 tbr, 24 tbn
+    Metadata:
+      file_package_umid: 0x060A2B340101010501010D0013CBA3225294713404CBA322005294713404CB01
+format mxf duration 1.000000 size 74297
+tags {'operational_pattern_ul': '060e2b34.04010102.0d010201.10030000', 'uid': 'adab4424-2f25-4dc7-92ff-000c00000000', 'generation_uid': 'adab4424-2f25-4dc7-92ff-000c00000001', 'company_name': 'FFmpeg', 'product_name': 'OPAtom Muxer', 'product_version_num': '63.1.102.0.0', 'product_version': '63.1.102', 'application_platform': 'Lavf (linux)', 'product_uid': 'adab4424-2f25-4dc7-92ff-29bd000c0002', 'toolkit_version_num': '63.1.102.0.0', 'material_package_umid': '0x060A2B340101010501010D0013CBA3225294713404CBA322005294713404CB00', 'timecode': '01:00:00:00'}
+{'index': 0, 'codec_type': 'video', 'codec_name': 'prores', 'profile': 'HQ', 'pix_fmt': 'yuv422p10le', 'width': 640, 'height': 360, 'r_frame_rate': '24/1', 'avg_frame_rate': '0/0', 'time_base': '1/24', 'duration': '1.000000', 'duration_ts': 24, 'nb_read_frames': '24', 'bits_per_raw_sample': '10'}
+===== MEDIAINFO =====
+----- /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/out/opatom_prores422hq_picture_24fps_24f.mxf -----
+Format                                   : MXF
+Format version                           : 1.3
+Format profile                           : OP-Atom
+Format settings                          : Closed / Complete
+Duration                                 : 1 s 0 ms
+Overall bit rate                         : 594 kb/s
+Frame rate                               : 24.000 FPS
+Writing library                          : Lavf (linux) 63.1.102.0.0
+Format                                   : ProRes
+Format profile                           : 422 HQ
+Format settings, wrapping mode           : Frame
+Codec ID                                 : 0D010301021C0100-0401020203060400
+Duration                                 : 1 s 0 ms
+Width                                    : 640 pixels
+Height                                   : 360 pixels
+Display aspect ratio                     : 16:9
+Frame rate                               : 24.000 FPS
+Bit depth                                : 10 bits
+Scan type                                : Progressive
+Type                                     : Time code
+Format                                   : MXF TC
+Frame rate                               : 24.000 FPS
+Time code of first frame                 : 01:00:00:00
+Time code of last frame                  : 01:00:00:23
+Time code settings                       : Material Package
+Time code, stripped                      : Yes
+ID                                       : 1-Source
+Type                                     : Time code
+Format                                   : MXF TC
+Frame rate                               : 24.000 FPS
+Time code of first frame                 : 01:00:00:00
+Time code of last frame                  : 01:00:00:23
+Time code settings                       : Source Package
+Time code, stripped                      : Yes
+===== UL SEARCH =====
+opatom_prores422hq_picture_24fps_24f.mxf size 74297
+  op1a_060e2b34040101010d01020101010900 offset -1
+  opatom_060e2b34040101020d01020110030000 offset 84
+===== DECODE AND MEASURE =====
+op1a_prores422hq_pcm_s24le_stereo_24fps_24f.mxf MISSING
+op1a_prores422hq_pcm_s24le_stereo_30000_1001_8f_samples12812.mxf MISSING
+op1a_prores422hq_pcm_s24le_stereo_30000_1001_8f_samples12813.mxf MISSING
+opatom_prores422hq_picture_24fps_24f.mxf decode_exit 0 raw_bytes 16588800 frames 24 remainder 0
+  bar_widths [8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192]
+  marker_xs [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23]]
+op1a_prores422hq_pcm_s24le_stereo_24fps_24f.mxf AUDIO MISSING
+op1a_prores422hq_pcm_s24le_stereo_30000_1001_8f_samples12812.mxf AUDIO MISSING
+op1a_prores422hq_pcm_s24le_stereo_30000_1001_8f_samples12813.mxf AUDIO MISSING
+opatom_pcm_s24le_mono_48000_edit24.mxf AUDIO MISSING
+opatom_pcm_s24le_stereo_48000_edit24.mxf AUDIO MISSING
+END 2026-11-20T17:14:32+05:30

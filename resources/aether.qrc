@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/aether">
+        <file>aether-logo-on-dark.png</file>
+        <file>aether-logo-dark-wordmark.png</file>
+    </qresource>
+</RCC>

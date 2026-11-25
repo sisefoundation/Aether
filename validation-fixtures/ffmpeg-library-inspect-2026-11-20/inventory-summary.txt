@@ -1,0 +1,152 @@
+muxers: 196 non-empty lines
+  mxf: 3
+      E  mxf             MXF (Material eXchange Format)
+      E  mxf_d10         MXF (Material eXchange Format) D-10 Mapping
+      E  mxf_opatom      MXF (Material eXchange Format) Operational Pattern Atom
+  prores: 0
+  pcm_s24le: 0
+  pcm_s16le: 0
+  dnxhd: 1
+      E  dnxhd           raw DNxHD (SMPTE VC-3)
+  h264: 1
+      E  h264            raw H.264 video
+  hevc: 1
+      E  hevc            raw HEVC video
+  aac: 1
+      E  adts            ADTS AAC (Advanced Audio Coding)
+  v210: 0
+  mpeg2video: 1
+      E  mpeg2video      raw MPEG-2 video
+demuxers: 385 non-empty lines
+  mxf: 1
+     D   mxf             MXF (Material eXchange Format)
+  prores: 0
+  pcm_s24le: 0
+  pcm_s16le: 0
+  dnxhd: 1
+     D   dnxhd           raw DNxHD (SMPTE VC-3)
+  h264: 1
+     D   h264            raw H.264 video
+  hevc: 1
+     D   hevc            raw HEVC video
+  aac: 1
+     D   aac             raw ADTS AAC (Advanced Audio Coding)
+  v210: 2
+     D   v210            Uncompressed 4:2:2 10-bit
+     D   v210x           Uncompressed 4:2:2 10-bit
+  mpeg2video: 0
+decoders: 573 non-empty lines
+  mxf: 0
+  prores: 2
+     VFS..D prores               Apple ProRes (iCodec Pro)
+     VFS..D prores_raw           Apple ProRes RAW
+  pcm_s24le: 2
+     A....D pcm_s24le            PCM signed 24-bit little-endian
+     A....D pcm_s24le_planar     PCM signed 24-bit little-endian planar
+  pcm_s16le: 2
+     A....D pcm_s16le            PCM signed 16-bit little-endian
+     A....D pcm_s16le_planar     PCM signed 16-bit little-endian planar
+  dnxhd: 1
+     VFS..D dnxhd                VC3/DNxHD
+  h264: 6
+     VFS..D h264                 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+     V..... h264_v4l2m2m         V4L2 mem2mem H.264 decoder wrapper (codec h264)
+     V....D h264_qsv             H264 video (Intel Quick Sync Video acceleration) (codec h264)
+     V....D libopenh264          OpenH264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (codec h264)
+     V..... h264_amf             H264 AMD AMF video decoder (codec h264)
+     V..... h264_cuvid           Nvidia CUVID H264 decoder (codec h264)
+  hevc: 5
+     VFS..D hevc                 HEVC (High Efficiency Video Coding)
+     V....D hevc_qsv             HEVC video (Intel Quick Sync Video acceleration) (codec hevc)
+     V..... hevc_v4l2m2m         V4L2 mem2mem HEVC decoder wrapper (codec hevc)
+     V..... hevc_amf             HEVC AMD AMF video decoder (codec hevc)
+     V..... hevc_cuvid           Nvidia CUVID HEVC decoder (codec hevc)
+  aac: 4
+     A....D aac                  AAC (Advanced Audio Coding)
+     A....D aac_fixed            AAC (Advanced Audio Coding) (codec aac)
+     A....D libfdk_aac           Fraunhofer FDK AAC (codec aac)
+     A....D aac_latm             AAC LATM (Advanced Audio Coding LATM syntax)
+  v210: 2
+     VFS..D v210                 Uncompressed 4:2:2 10-bit
+     V....D v210x                Uncompressed 4:2:2 10-bit
+  mpeg2video: 5
+     V.S.BD mpeg2video           MPEG-2 video
+     V.S.BD mpegvideo            MPEG-1 video (codec mpeg2video)
+     V..... mpeg2_v4l2m2m        V4L2 mem2mem MPEG2 decoder wrapper (codec mpeg2video)
+     V....D mpeg2_qsv            MPEG2VIDEO video (Intel Quick Sync Video acceleration) (codec mpeg2video)
+     V..... mpeg2_cuvid          Nvidia CUVID MPEG2VIDEO decoder (codec mpeg2video)
+encoders: 246 non-empty lines
+  mxf: 0
+  prores: 4
+     VF...D prores               Apple ProRes
+     VF...D prores_aw            Apple ProRes (codec prores)
+     VFS... prores_ks            Apple ProRes (iCodec Pro) (codec prores)
+     V..... prores_ks_vulkan     Apple ProRes (iCodec Pro) (codec prores)
+  pcm_s24le: 2
+     A....D pcm_s24le            PCM signed 24-bit little-endian
+     A....D pcm_s24le_planar     PCM signed 24-bit little-endian planar
+  pcm_s16le: 2
+     A....D pcm_s16le            PCM signed 16-bit little-endian
+     A....D pcm_s16le_planar     PCM signed 16-bit little-endian planar
+  dnxhd: 1
+     VFS..D dnxhd                VC3/DNxHD
+  h264: 9
+     V....D libx264              libx264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (codec h264)
+     V....D libx264rgb           libx264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 RGB (codec h264)
+     V....D libopenh264          OpenH264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (codec h264)
+     V....D h264_amf             AMD AMF H.264 Encoder (codec h264)
+     V....D h264_nvenc           NVIDIA NVENC H.264 encoder (codec h264)
+     V..... h264_qsv             H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (Intel Quick Sync Video acceleration) (codec h264)
+     V..... h264_v4l2m2m         V4L2 mem2mem H.264 encoder wrapper (codec h264)
+     V....D h264_vaapi           H.264/AVC (VAAPI) (codec h264)
+  hevc: 7
+     V....D libx265              libx265 H.265 / HEVC (codec hevc)
+     V....D hevc_amf             AMD AMF HEVC encoder (codec hevc)
+     V....D hevc_nvenc           NVIDIA NVENC hevc encoder (codec hevc)
+     V..... hevc_qsv             HEVC (Intel Quick Sync Video acceleration) (codec hevc)
+     V..... hevc_v4l2m2m         V4L2 mem2mem HEVC encoder wrapper (codec hevc)
+     V....D hevc_vaapi           H.265/HEVC (VAAPI) (codec hevc)
+     V....D hevc_vulkan          H.265/HEVC (Vulkan) (codec hevc)
+  aac: 2
+     A....D aac                  AAC (Advanced Audio Coding)
+     A....D libfdk_aac           Fraunhofer FDK AAC (codec aac)
+  v210: 1
+     VF...D v210                 Uncompressed 4:2:2 10-bit
+  mpeg2video: 3
+     V.S..D mpeg2video           MPEG-2 video
+     V..... mpeg2_qsv            MPEG-2 video (Intel Quick Sync Video acceleration) (codec mpeg2video)
+     V....D mpeg2_vaapi          MPEG-2 (VAAPI) (codec mpeg2video)
+formats: 438 non-empty lines
+  mxf: 3
+     DE  mxf             MXF (Material eXchange Format)
+      E  mxf_d10         MXF (Material eXchange Format) D-10 Mapping
+      E  mxf_opatom      MXF (Material eXchange Format) Operational Pattern Atom
+  prores: 0
+  pcm_s24le: 0
+  pcm_s16le: 0
+  dnxhd: 1
+     DE  dnxhd           raw DNxHD (SMPTE VC-3)
+  h264: 1
+     DE  h264            raw H.264 video
+  hevc: 1
+     DE  hevc            raw HEVC video
+  aac: 2
+     D   aac             raw ADTS AAC (Advanced Audio Coding)
+      E  adts            ADTS AAC (Advanced Audio Coding)
+  v210: 2
+     D   v210            Uncompressed 4:2:2 10-bit
+     D   v210x           Uncompressed 4:2:2 10-bit
+  mpeg2video: 1
+      E  mpeg2video      raw MPEG-2 video
+--- hwaccels ---
+Hardware acceleration methods:
+vdpau
+cuda
+vaapi
+qsv
+drm
+opencl
+vulkan
+amf
+
+

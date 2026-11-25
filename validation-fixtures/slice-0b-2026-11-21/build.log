@@ -1,0 +1,48 @@
+[  0%] Built target aether_timing_autogen_timestamp_deps
+[  0%] Built target aether_persistence_autogen_timestamp_deps
+[  3%] Automatic MOC for target aether_persistence
+[  6%] Automatic MOC for target aether_timing
+[  6%] Built target aether_timing_autogen
+[  6%] Built target aether_persistence_autogen
+[ 31%] Building CXX object src/CMakeFiles/aether_timing.dir/core/timing/sample_boundary.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/aether_persistence.dir/persistence/project_store.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/aether_persistence.dir/aether_persistence_autogen/mocs_compilation.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/aether_persistence.dir/core/project/ids.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/aether_timing.dir/aether_timing_autogen/mocs_compilation.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/aether_persistence.dir/persistence/logger.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/aether_persistence.dir/persistence/manifest.cpp.o
+[ 34%] Linking CXX static library libaether_timing.a
+[ 34%] Built target aether_timing
+[ 37%] Linking CXX static library libaether_persistence.a
+[ 37%] Built target aether_persistence
+[ 37%] Built target aether_session_autogen_timestamp_deps
+[ 41%] Automatic MOC for target aether_session
+[ 41%] Built target aether_session_autogen
+[ 44%] Building CXX object src/CMakeFiles/aether_session.dir/aether_session_autogen/mocs_compilation.cpp.o
+[ 48%] Building CXX object src/CMakeFiles/aether_session.dir/app/project_session.cpp.o
+[ 51%] Linking CXX static library libaether_session.a
+[ 51%] Built target aether_session
+[ 51%] Built target aether_slice0a_tests_autogen_timestamp_deps
+[ 51%] Built target aether_ui_autogen_timestamp_deps
+[ 58%] Automatic MOC for target aether_slice0a_tests
+[ 58%] Automatic MOC for target aether_ui
+[ 58%] Built target aether_slice0a_tests_autogen
+[ 68%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/timing_tests.cpp.o
+[ 68%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/project_tests.cpp.o
+[ 68%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/aether_slice0a_tests_autogen/mocs_compilation.cpp.o
+[ 72%] Building CXX object tests/CMakeFiles/aether_slice0a_tests.dir/main.cpp.o
+[ 72%] Built target aether_ui_autogen
+[ 79%] Building CXX object src/CMakeFiles/aether_ui.dir/aether_ui_autogen/mocs_compilation.cpp.o
+[ 79%] Building CXX object src/CMakeFiles/aether_ui.dir/ui/main_window.cpp.o
+[ 82%] Linking CXX executable aether_slice0a_tests
+[ 86%] Linking CXX static library libaether_ui.a
+[ 86%] Built target aether_slice0a_tests
+[ 86%] Built target aether_ui
+[ 86%] Built target aether_autogen_timestamp_deps
+[ 89%] Automatic MOC for target aether
+[ 89%] Built target aether_autogen
+[ 96%] Building CXX object src/CMakeFiles/aether.dir/aether_autogen/mocs_compilation.cpp.o
+[ 96%] Building CXX object src/CMakeFiles/aether.dir/ui/main.cpp.o
+[100%] Linking CXX executable aether
+[100%] Built target aether
+build_exit=0

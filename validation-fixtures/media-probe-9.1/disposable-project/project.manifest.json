@@ -1,0 +1,11 @@
+{
+  "project_id": "d298610a-b362-4a8b-a225-aab5db7ce4ca",
+  "name": "ProbeCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-22T16:43:16Z",
+  "modified": "2026-11-22T16:43:17Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

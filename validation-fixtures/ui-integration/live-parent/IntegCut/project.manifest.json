@@ -1,0 +1,11 @@
+{
+  "project_id": "fa1fc5fc-2cde-4e01-9cb3-0f50c4c5057f",
+  "name": "IntegCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-21T18:47:23Z",
+  "modified": "2026-11-21T18:50:19Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

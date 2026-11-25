@@ -1,0 +1,11 @@
+{
+  "project_id": "5f3d657b-215a-4584-8c68-814875a2309a",
+  "name": "ExtractUiCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-23T14:57:43Z",
+  "modified": "2026-11-23T15:33:22Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

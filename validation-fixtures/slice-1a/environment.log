@@ -1,0 +1,17 @@
+date=2026-11-21T18:45:00+05:30
+git=fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+os=Fedora Linux 45 (Workstation Edition)
+7.2.15-300.fc45.x86_64
+g++ (GCC) 16.2.1 20261029 (Red Hat 16.2.1-3)
+cmake version 4.3.0
+qt6-qtbase-devel-6.11.2-3.fc45.x86_64
+sqlite-devel-3.53.4-1.fc45.x86_64
+6.11.2
+3.53.4
+WAYLAND_DISPLAY=wayland-0
+DISPLAY=:0
+XDG_SESSION_TYPE=wayland
+/usr/bin/wmctrl
+build_0a=present
+build_0b=present

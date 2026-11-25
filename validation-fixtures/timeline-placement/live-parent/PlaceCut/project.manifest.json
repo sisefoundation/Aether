@@ -1,0 +1,11 @@
+{
+  "project_id": "ffa708ac-3801-4d5b-9b6d-f7621b380004",
+  "name": "PlaceCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-21T19:46:19Z",
+  "modified": "2026-11-21T20:07:33Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

@@ -1,0 +1,40 @@
+********* Start testing of TimingTests *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 16.2.1 20260819 (Red Hat 16.2.1-2)), fedora 45
+PASS   : TimingTests::initTestCase()
+PASS   : TimingTests::publishedBoundaries()
+PASS   : TimingTests::eightFrameSpansAreNotAllEqual()
+PASS   : TimingTests::adjacentRepeatedAndNonZeroStarts()
+PASS   : TimingTests::longWalkMatchesBoundary()
+PASS   : TimingTests::negativeAndOverflowFailClosed()
+PASS   : TimingTests::cleanupTestCase()
+Totals: 7 passed, 0 failed, 0 skipped, 0 blacklisted, 32ms
+********* Finished testing of TimingTests *********
+********* Start testing of ProjectTests *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 16.2.1 20260819 (Red Hat 16.2.1-2)), fedora 45
+PASS   : ProjectTests::initTestCase()
+PASS   : ProjectTests::createManifestLayoutAndReopen()
+PASS   : ProjectTests::projectIdSurvivesRenameCloseAndReopen()
+PASS   : ProjectTests::badManifestMissingDatabaseAndBadSchema()
+PASS   : ProjectTests::transactionsForeignKeysAndUniqueness()
+PASS   : ProjectTests::binsMembershipMoveReferenceAndDuplicate()
+PASS   : ProjectTests::mediaIdentityAndMasterClipReopen()
+PASS   : ProjectTests::undoRedoResetsAndStaysIndependentOfSave()
+PASS   : ProjectTests::autosaveAndInterruptedTransaction()
+PASS   : ProjectTests::secondOpenIsRefusedAndLogsOmitPaths()
+PASS   : ProjectTests::cleanupTestCase()
+Totals: 11 passed, 0 failed, 0 skipped, 0 blacklisted, 23ms
+********* Finished testing of ProjectTests *********
+********* Start testing of SequenceTests *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 16.2.1 20260819 (Red Hat 16.2.1-2)), fedora 45
+PASS   : SequenceTests::initTestCase()
+PASS   : SequenceTests::modelRejectsUnreducedAndEmptySpans()
+PASS   : SequenceTests::operationsMoveTrimRemoveAndRejectOverlap()
+PASS   : SequenceTests::persistenceReopenKeepsBothRanges()
+PASS   : SequenceTests::identitySurvivesPathAndSecondRepresentation()
+PASS   : SequenceTests::timeSelectionAndPublishedSampleCounts()
+PASS   : SequenceTests::undoCloseReopenKeepsCommittedEdit()
+PASS   : SequenceTests::migrateVersionOnePreservesBinsAndMedia()
+PASS   : SequenceTests::migrationFailureRollsBackWithoutDeleting()
+PASS   : SequenceTests::cleanupTestCase()
+Totals: 10 passed, 0 failed, 0 skipped, 0 blacklisted, 17ms
+********* Finished testing of SequenceTests *********

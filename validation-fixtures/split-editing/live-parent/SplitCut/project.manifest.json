@@ -1,0 +1,11 @@
+{
+  "project_id": "4fc70668-5e2a-432a-beee-d9073b2c5fee",
+  "name": "SplitCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-22T18:53:10Z",
+  "modified": "2026-11-22T19:00:37Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

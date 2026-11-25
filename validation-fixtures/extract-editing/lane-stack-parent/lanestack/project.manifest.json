@@ -1,0 +1,11 @@
+{
+  "project_id": "b1d4f180-c33e-4c52-9c9b-d6b8fcc663a6",
+  "name": "LaneStack",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-23T14:31:54Z",
+  "modified": "2026-11-23T14:31:54Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

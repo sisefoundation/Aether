@@ -1,0 +1,8 @@
+AETHER
+Copyright 2026 Society of Indian Screen Editors Foundation
+Architect: Subhajit Singha, SISE
+
+AETHER is the work of the Society of Indian Screen Editors Foundation.
+It is licensed under the Apache License, Version 2.0. See LICENSE.
+
+This NOTICE does not resolve Qt distribution, FFmpeg licensing, ProRes patents, DNx patents, AAF licensing, or trademarks. Those questions remain open in architecture/decisions/ADR-008-licensing-and-originals.md.

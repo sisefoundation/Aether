@@ -1,0 +1,11 @@
+{
+  "project_id": "4c81ccf3-3560-4ea4-893a-aeaecf4cae6d",
+  "name": "LiveSlice",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-21T14:42:41Z",
+  "modified": "2026-11-21T15:03:12Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

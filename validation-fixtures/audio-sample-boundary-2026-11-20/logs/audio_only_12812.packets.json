@@ -1,0 +1,28 @@
+{
+    "packets": [
+        {
+            "pts": 0,
+            "duration": 4096,
+            "size": "24576",
+            "flags": "K__"
+        },
+        {
+            "pts": 4096,
+            "duration": 4096,
+            "size": "24576",
+            "flags": "K__"
+        },
+        {
+            "pts": 8192,
+            "duration": 4096,
+            "size": "24576",
+            "flags": "K__"
+        },
+        {
+            "pts": 12288,
+            "duration": 524,
+            "size": "3144",
+            "flags": "K__"
+        }
+    ]
+}

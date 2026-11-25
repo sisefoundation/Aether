@@ -1,0 +1,16 @@
+-- The CXX compiler identification is GNU 16.2.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found OpenGL: /usr/lib64/libOpenGL.so
+-- Slice 0A SQLite3 3.53.4
+-- Slice 0B links imported target SQLite3::SQLite3
+-- Slice 0A Qt6 6.11.2
+-- Slice 0A C++ standard is prototype-only C++17
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/editry/development/sise-editor/build-slice1b

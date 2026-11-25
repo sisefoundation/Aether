@@ -1,0 +1,11 @@
+{
+  "project_id": "16d392a4-1b12-436b-aee6-d2b6ec87ed06",
+  "name": "PlaybackCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-24T17:09:48Z",
+  "modified": "2026-11-24T17:17:32Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

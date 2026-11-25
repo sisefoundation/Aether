@@ -1,0 +1,23 @@
+=== QT_QPA_PLATFORM=wayland --shutdown-now ===
+info startup AETHER start
+info shutdown AETHER stop
+wayland_shutdown_exit=0
+=== QT_QPA_PLATFORM=wayland window probe ===
+This probe is not a button or menu test.
+info startup AETHER start
+wayland_wmctrl:
+wayland_window_not_listed
+wayland_killed_exit=143
+=== QT_QPA_PLATFORM=xcb --shutdown-now ===
+info startup AETHER start
+info shutdown AETHER stop
+xcb_shutdown_exit=0
+=== QT_QPA_PLATFORM=xcb window probe ===
+This probe is not a button or menu test.
+info startup AETHER start
+xcb_wmctrl:
+0x01200007  0 fedora AETHER
+info shutdown AETHER stop
+xcb_window_close_exit=0
+=== note ===
+An xcb launch is not a native Wayland result.

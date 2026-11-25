@@ -1,0 +1,55 @@
+General
+Complete name                            : /home/editry/development/sise-editor/validation-fixtures/ffmpeg-mxf-numbered-2026-11-20/out/opatom_prores422hq_picture_24fps_24f.mxf
+Format                                   : MXF
+Format version                           : 1.3
+Format profile                           : OP-Atom
+Format settings                          : Closed / Complete
+File size                                : 72.6 KiB
+Duration                                 : 1 s 0 ms
+Overall bit rate                         : 594 kb/s
+Frame rate                               : 24.000 FPS
+Encoded date                             : 0-00-00 00:00:00.000
+Writing application                      : FFmpeg OPAtom Muxer 63.1.102.0.0
+Writing library                          : Lavf (linux) 63.1.102.0.0
+
+Video
+ID                                       : 2
+Format                                   : ProRes
+Format profile                           : 422 HQ
+Format settings, wrapping mode           : Frame
+Codec ID                                 : 0D010301021C0100-0401020203060400
+Duration                                 : 1 s 0 ms
+Bit rate                                 : 592 kb/s
+Width                                    : 640 pixels
+Height                                   : 360 pixels
+Display aspect ratio                     : 16:9
+Frame rate                               : 24.000 FPS
+Color space                              : YUV
+Chroma subsampling                       : 4:2:2
+Bit depth                                : 10 bits
+Scan type                                : Progressive
+Bits/(Pixel*Frame)                       : 0.107
+Stream size                              : 72.3 KiB (100%)
+Color range                              : Limited
+
+Other #1
+ID                                       : 1-Material
+Type                                     : Time code
+Format                                   : MXF TC
+Frame rate                               : 24.000 FPS
+Time code of first frame                 : 01:00:00:00
+Time code of last frame                  : 01:00:00:23
+Time code settings                       : Material Package
+Time code, stripped                      : Yes
+
+Other #2
+ID                                       : 1-Source
+Type                                     : Time code
+Format                                   : MXF TC
+Frame rate                               : 24.000 FPS
+Time code of first frame                 : 01:00:00:00
+Time code of last frame                  : 01:00:00:23
+Time code settings                       : Source Package
+Time code, stripped                      : Yes
+
+

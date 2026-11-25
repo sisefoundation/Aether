@@ -1,0 +1,3 @@
+info startup AETHER start
+info shutdown AETHER stop
+wayland_shutdown_exit=0

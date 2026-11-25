@@ -1,0 +1,11 @@
+{
+  "project_id": "d4b50466-ed76-466a-b67c-1a4d2f1815a5",
+  "name": "MarksCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-22T13:38:44Z",
+  "modified": "2026-11-22T15:59:39Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

@@ -1,0 +1,45 @@
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "prores",
+            "profile": "HQ",
+            "codec_type": "video",
+            "width": 640,
+            "height": 360,
+            "pix_fmt": "yuv422p10le",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/24",
+            "duration_ts": 24,
+            "duration": "1.000000",
+            "bits_per_raw_sample": "10",
+            "nb_read_frames": "24"
+        }
+    ],
+    "format": {
+        "format_name": "mxf",
+        "duration": "1.000000",
+        "size": "74297",
+        "tags": {
+            "operational_pattern_ul": "060e2b34.04010102.0d010201.10030000",
+            "uid": "adab4424-2f25-4dc7-92ff-000c00000000",
+            "generation_uid": "adab4424-2f25-4dc7-92ff-000c00000001",
+            "company_name": "FFmpeg",
+            "product_name": "OPAtom Muxer",
+            "product_version_num": "63.1.102.0.0",
+            "product_version": "63.1.102",
+            "application_platform": "Lavf (linux)",
+            "product_uid": "adab4424-2f25-4dc7-92ff-29bd000c0002",
+            "toolkit_version_num": "63.1.102.0.0",
+            "material_package_umid": "0x060A2B340101010501010D0013CBA3225294713404CBA322005294713404CB00",
+            "timecode": "01:00:00:00"
+        }
+    }
+}

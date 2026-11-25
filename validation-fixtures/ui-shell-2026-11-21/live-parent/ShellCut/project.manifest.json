@@ -1,0 +1,11 @@
+{
+  "project_id": "6d1b8124-4701-4527-8b11-82a3881985b7",
+  "name": "ShellCut",
+  "format_version": 1,
+  "database_filename": "project.db",
+  "schema_version": 2,
+  "created": "2026-11-21T15:30:39Z",
+  "modified": "2026-11-21T15:30:39Z",
+  "prototype_version": "slice-0a",
+  "app_version": "0.0.0-slice-0a"
+}

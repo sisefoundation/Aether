@@ -1,0 +1,144 @@
+$ ffprobe -hide_banner -v error -show_format -show_streams -of json /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/mpeg_24000_1001_40f.mxf
+exit=0
+----- stdout -----
+{
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "mpeg2video",
+            "codec_long_name": "MPEG-2 video",
+            "profile": "4:2:2",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "width": 32,
+            "height": 32,
+            "coded_width": 0,
+            "coded_height": 0,
+            "has_b_frames": 1,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "1:1",
+            "pix_fmt": "yuv422p",
+            "level": 5,
+            "color_range": "tv",
+            "chroma_location": "topleft",
+            "field_order": "progressive",
+            "r_frame_rate": "24000/1001",
+            "avg_frame_rate": "24000/1001",
+            "time_base": "1001/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 40,
+            "duration": "1.668333",
+            "extradata_size": 22,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "file_package_umid": "0x060A2B340101010501010D0013CF6BE4529471342FCF6BE400529471342FCF01"
+            },
+            "side_data_list": [
+                {
+                    "side_data_type": "CPB properties",
+                    "max_bitrate": 0,
+                    "min_bitrate": 0,
+                    "avg_bitrate": 0,
+                    "buffer_size": 16384,
+                    "vbv_delay": -1
+                }
+            ]
+        },
+        {
+            "index": 1,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "s32",
+            "sample_rate": "48000",
+            "channels": 2,
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 80080,
+            "duration": "1.668333",
+            "bit_rate": "2304000",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "file_package_umid": "0x060A2B340101010501010D0013CF6BE4529471342FCF6BE400529471342FCF01"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/mpeg_24000_1001_40f.mxf",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mxf",
+        "format_long_name": "MXF (Material eXchange Format)",
+        "start_time": "0.000000",
+        "duration": "1.668333",
+        "size": "540729",
+        "bit_rate": "2592906",
+        "probe_score": 100,
+        "tags": {
+            "operational_pattern_ul": "060e2b34.04010101.0d010201.01010900",
+            "uid": "adab4424-2f25-4dc7-92ff-000c00000000",
+            "generation_uid": "adab4424-2f25-4dc7-92ff-000c00000001",
+            "company_name": "FFmpeg",
+            "product_name": "OP1a Muxer",
+            "product_version_num": "63.1.102.0.0",
+            "product_version": "63.1.102",
+            "application_platform": "Lavf (linux)",
+            "product_uid": "adab4424-2f25-4dc7-92ff-29bd000c0002",
+            "toolkit_version_num": "63.1.102.0.0",
+            "material_package_umid": "0x060A2B340101010501010D0013CF6BE4529471342FCF6BE400529471342FCF00",
+            "timecode": "00:00:00:00"
+        }
+    }
+}
+----- stderr -----

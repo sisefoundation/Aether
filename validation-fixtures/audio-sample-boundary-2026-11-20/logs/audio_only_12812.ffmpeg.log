@@ -1,0 +1,20 @@
+$ ffmpeg -hide_banner -y -f s24le -ar 48000 -ac 2 -i /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/src/audio_only_12812.s24le -c:a pcm_s24le /home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/audio_only_12812.wav
+exit=0
+----- stdout -----
+----- stderr -----
+[in#0/s24le @ 0x560eb367a0c0] Estimating duration from bitrate, this may be inaccurate
+[aist#0:0/pcm_s24le @ 0x560eb3684480] Guessed Channel Layout: stereo
+Input #0, s24le, from '/home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/src/audio_only_12812.s24le':
+  Duration: 00:00:00.27, bitrate: 2303 kb/s
+  Stream #0:0: Audio: pcm_s24le, 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/home/editry/development/sise-editor/validation-fixtures/audio-sample-boundary-2026-11-20/out/audio_only_12812.wav':
+  Metadata:
+    ISFT            : Lavf63.1.102
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+    Metadata:
+      encoder         : Lavc63.1.102 pcm_s24le
+[out#0/wav @ 0x560eb3684600] video:0KiB audio:75KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.132688%
+size=      75KiB time=00:00:00.26 bitrate=2307.1kbits/s speed= 110x elapsed=0:00:00.00    
